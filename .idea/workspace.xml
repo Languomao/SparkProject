@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65602dbc-8096-44c6-8f85-659157c26f78" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/lan/korment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/PopularTeacher.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/SelfPartition.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SparkPI.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/SparkPI.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AvgAge.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/AvgAge.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+            <state relative-caret-position="-20">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="e#30#63#0" expanded="true" />
               </folding>
@@ -45,25 +30,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopK.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/TopK.scala">
+      <file leaf-file-name="PopularTeacher.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/PopularTeacher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="237">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#30#63#0" expanded="true" />
+                <element signature="e#46#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkWordCountWithScala.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/SparkWordCountWithScala.scala">
+      <file leaf-file-name="SelfPartition.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/SelfPartition.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#46#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FavoriteTeacher.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/FavoriteTeacher.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="20" column="81" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="81" />
+              <caret line="82" column="56" lean-forward="true" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
               <folding>
-                <element signature="e#30#61#0" expanded="true" />
+                <element signature="e#158#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +75,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SelfPartition</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -89,6 +91,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/test/SparkWordCountWithScala.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/test/AvgAge.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/test/TopK.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/PopularTeacher.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/FavoriteTeacher.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/SelfPartition.scala" />
       </list>
     </option>
   </component>
@@ -138,6 +144,41 @@
               <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spark-project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="korment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="korment" type="462c0819:PsiDirectoryNode" />
+              <item name="pop_teacher_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,6 +194,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEAWorkspace\spark-project\src\main\scala\com\lan\korment" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEAWorkspace\spark-project\src\main\scala\com\lan\korment" />
     </key>
@@ -169,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopK">
+  <component name="RunManager" selected="Application.FavoriteTeacher">
     <configuration name="AvgAge" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.lan.korment.test.AvgAge" />
       <module name="spark-project" />
@@ -181,19 +225,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkPI" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.lan.korment.test.SparkPI" />
+    <configuration name="FavoriteTeacher" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lan.korment.pop_teacher_practice.FavoriteTeacher" />
       <module name="spark-project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lan.korment.test.*" />
+          <option name="PATTERN" value="com.lan.korment.pop_teacher_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SparkWordCountWithScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.lan.korment.test.SparkWordCountWithScala" />
+    <configuration name="PopularTeacher" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lan.korment.pop_teacher_practice.PopularTeacher" />
+      <module name="spark-project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lan.korment.pop_teacher_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SparkPI" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lan.korment.test.SparkPI" />
       <module name="spark-project" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -257,16 +312,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.SparkPI" />
-      <item itemvalue="Application.SparkWordCountWithScala" />
       <item itemvalue="Application.AvgAge" />
       <item itemvalue="Application.TopK" />
+      <item itemvalue="Application.PopularTeacher" />
+      <item itemvalue="Application.FavoriteTeacher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FavoriteTeacher" />
+        <item itemvalue="Application.PopularTeacher" />
         <item itemvalue="Application.TopK" />
         <item itemvalue="Application.AvgAge" />
         <item itemvalue="Application.SparkPI" />
-        <item itemvalue="Application.SparkWordCountWithScala" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +338,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574319589732</updated>
       <workItem from="1574319595021" duration="3104000" />
-      <workItem from="1574323113426" duration="3120000" />
+      <workItem from="1574323113426" duration="4896000" />
     </task>
     <task id="LOCAL-00001" summary="commited by lan">
       <created>1574326365947</created>
@@ -290,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574326365947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commited by lan">
+      <created>1574326520571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574326520571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6224000" />
+    <option name="totallyTimeSpent" value="8000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,12 +387,12 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32561985" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3289256" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3305785" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49586776" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -413,20 +477,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/rdd/TestDataFrame1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/SparkPI.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/AvgAge.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="e#30#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,10 +510,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/TopK.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
           <folding>
             <element signature="e#30#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/test/AvgAge.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="5" selection-start-column="5" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/SelfPartition.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#46#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/PopularTeacher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#46#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/lan/korment/pop_teacher_practice/FavoriteTeacher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="82" column="56" lean-forward="true" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+          <folding>
+            <element signature="e#158#177#0" expanded="true" />
           </folding>
         </state>
       </provider>
