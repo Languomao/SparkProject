@@ -14,6 +14,7 @@ import scala.math.random
 object SparkPI {
   def main(args: Array[String]): Unit = {
     val masterUrl = "local[1]"
+    //设置本地运行模式以及APP名
     val conf=new SparkConf().setMaster(masterUrl).setAppName("SparkPi")
     val sc=new SparkContext(conf)
     //启动Task数，默认2个
