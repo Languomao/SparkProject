@@ -18,7 +18,7 @@ object SparkWordCountWithScala {
     //创建SparkCore的程序入口
     val sc = new SparkContext(conf)
     //读取文件 生成RDD
-    val file: RDD[String] = sc.textFile("C:\\Users\\LanKorment\\Desktop\\note.txt")
+/*    val file: RDD[String] = sc.textFile("C:\\Users\\LanKorment\\Desktop\\note.txt")
     //把每一行数据按照，分割
     val word: RDD[String] = file.flatMap(_.split(","))
     //让每一个单词都出现一次
@@ -26,7 +26,12 @@ object SparkWordCountWithScala {
     //单词计数
     val wordCount: RDD[(String, Int)] = wordOne.reduceByKey(_ + _)
     //按照单词出现的次数 降序排序
-    val sortRdd: RDD[(String, Int)] = wordCount.sortBy(tuple => tuple._2, false)
+    val sortRdd: RDD[(String, Int)] = wordCount.sortBy(tuple => tuple._2, false)*/
+
+    //去除中间变量
+    val sortRdd = sc.textFile("C:\\Users\\LanKorment\\Desktop\\note.txt").flatMap(_.split(","))
+    .map((_,1)).reduceByKey(_+_).sortBy(tuple => tuple._2 , false)
+
     //将最终的结果进行保存
     sortRdd.saveAsTextFile("D:\\result")
 
